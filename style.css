@@ -1,0 +1,723 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    /* display: flex; */
+    justify-content: center;
+    background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/assets/images/netflicx\ front.jpg);
+}
+
+nav {
+
+    padding: 1.3rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    /* background-color: violet; */
+}
+
+nav img {
+    height: 2.3rem;
+}
+
+.first_child {
+    height: 2rem;
+    width: 7rem;
+    padding: 0.4rem;
+    border: 1px solid white;
+    background: transparent;
+    font-size: 1rem;
+    font-weight: 550;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+
+
+}
+
+option {
+    color: black;
+}
+
+.second_child {
+    cursor: pointer;
+    height: 2rem;
+    width: 5rem;
+    margin-left: 1rem;
+    background-color: red;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    border-radius: 4px;
+}
+
+.mainn {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.first {
+    /* margin-top: 5rem; */
+    padding: 3rem;
+    padding-top: 12rem;
+    color: white;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.first h1 {
+    padding: 1rem;
+
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.first h5 {
+
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: sans-serif;
+}
+
+.section-first {
+    height: 95vh;
+    width: 100vw;
+    padding: 0rem 3rem;
+    background-color: black;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+
+.line {
+    height: 0.7rem;
+    background-color: rgb(83, 82, 82);
+}
+
+.one {
+    color: white;
+    padding: 2rem;
+    text-align: start;
+}
+
+.one h1 {
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.one p {
+    padding-top: 1rem;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.two img {
+    margin-top: -4rem;
+    height: 26rem;
+    width: 34rem;
+    padding-right: 2rem;
+    position: absolute;
+    overflow: hidden;
+}
+
+form {
+    display: flex;
+
+}
+
+form input {
+
+    padding: 1rem 5rem;
+    border-radius: 5px;
+    background-color: rgba(40, 40, 40, 0.9);
+    color: white;
+    border: none;
+}
+
+form button {
+    margin-left: 1rem;
+    padding: 1rem 2rem;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.second-section {
+    height: 95vh;
+    width: 100vw;
+    display: flex;
+    background-color: black;
+    display: flex;
+}
+
+.secondone {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+
+}
+
+.secondone img {
+    height: 70%;
+}
+
+.secondtwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    padding: 1rem;
+}
+
+.secondtwo h1 {
+
+    font-family: sans-serif;
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: white;
+
+}
+
+.secondtwo p {
+    padding-top: 1rem;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: white;
+    text-align: start;
+}
+
+.videosecond {
+    width: 20rem;
+}
+
+.third-section {
+    height: 95vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdtwo img {
+    margin-top: -4rem;
+    height: 26rem;
+    width: 34rem;
+    padding-right: 2rem;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+   /* position: relative; */
+   
+   
+}
+
+.third-section video {
+    /* position: absolute; */
+   margin-top: -2rem;
+   height: 15rem;
+   width: 20rem;
+   position: relative;
+   left: 6rem;
+    object-fit: cover;
+    object-position: center;
+   
+}
+
+.thirdone {
+    padding-left: 2rem;
+    padding: 1rem;
+    width: 50%;
+}
+
+.thirdtwo {
+    margin-left: -5rem;
+    padding: 2rem;
+    width: 50%;
+    /* padding-left: 3rem; */
+}
+
+.thirdone h1 {
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+}
+
+.thirdone p {
+    padding-top: 1rem;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.question-section {
+    height: 198vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+
+.question-section h1 {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    font-family: sans-serif;
+    font-size: 3.4rem;
+    font-weight: 900;
+}
+
+.lastform {
+    display: flex;
+    justify-content: center;
+}
+
+.lasst {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.something {
+    max-width: 980px;
+    width: 100%;
+    margin: 60px auto;
+
+}
+
+.something li {
+    list-style: none;
+    /* margin-top: 0.1rem; */
+    padding: 1rem;
+
+    /* background-color: gray; */
+}
+
+.something li label:hover {
+    background-color: rgb(107, 106, 106);
+}
+
+.something li label {
+    padding: 1.8rem;
+    background-color: rgb(65, 65, 65);
+    font-size: 1.6rem;
+    margin-bottom: 2px;
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+.something .content {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    max-height: 0px;
+    overflow: hidden;
+    /* padding: 2rem; */
+
+}
+
+
+.questions input[type="radio"] {
+    display: none;
+}
+
+.questions input[type="radio"]:checked+label+.content {
+    max-height: 7rem;
+    padding: 1.5rem;
+}
+
+.foot {
+    height: 70vh;
+    background-color: #000;
+    display: flex;
+
+}
+
+.foot ul {
+
+    margin-top: 8rem;
+    list-style: none;
+    padding-right: 4rem;
+    /* padding: 5rem; */
+}
+
+.foot li {
+    padding-top: 1rem;
+    text-decoration: underline;
+}
+
+.foot h6 {
+    font-size: 1rem;
+    padding: 1rem;
+    padding-top: 4rem;
+    text-decoration: underline;
+
+}
+
+.start {
+    position: absolute;
+    left: 0.5rem;
+}
+
+#cool {
+    margin-top: 2rem;
+}
+
+.last {
+    padding-top: 1rem;
+}
+
+
+/* media query started from here */
+@media (min-width:320px) and (max-width:480px) {
+    nav {
+
+        padding: 1.3rem 1rem;
+    }
+ .main{
+    height: 90vh;
+ }
+    nav img {
+        height: 1.4rem;
+    }
+
+    .chang {
+        margin-left: 4rem;
+        display: flex;
+    }
+
+    .first_child {
+        height: 1.5rem;
+        width: 4rem;
+        padding: 0;
+    }
+
+    .second_child {
+        height: 1.6rem;
+        width: 4rem;
+        margin-left: 0.5rem;
+        font-size: 0.8em;
+        border-radius: 3px;
+    }
+
+    .first {
+        padding: 1rem;
+        padding-top: 3rem;
+        text-align: center;
+        line-height: 2.6rem
+    }
+
+    .first h1 {
+        font-size: 1.9rem
+    }
+    .first h5{
+        margin-top: 0;
+        font-size: 1rem;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    form input{
+        padding: 1rem 3rem;
+    }
+    form button {
+        margin-left: 4rem;
+        padding: 0.6rem;
+        width: 8rem;
+        margin-top: 2rem;
+     }
+
+  /*  first -section style started */
+
+  .section-first{
+    flex-direction: column;
+  }
+  .one{
+    padding: 0rem;
+  }
+  .one h1{
+    font-size: 2rem;
+  }
+  .one p{
+    font-size: 1.1rem;
+  }
+  .two img {
+    margin-top: 1rem;
+    height: 20rem;
+    width: 28rem;
+    margin-left: 1rem;
+
+}
+.two video{
+    height: 18rem;
+    width: 28rem;
+}
+
+
+/* second section style will be started from here */
+
+.second-section{
+    flex-direction: column-reverse;
+  }
+  .secondtwo{
+
+    width: 100%;
+    padding: 2rem;
+    margin-top: 4rem;
+    height: 14%;
+  }
+  .secondtwo h1{
+    font-size: 1.7rem;
+  }
+  .secondtwo p{
+    font-size: 1.1rem;
+  }
+  .secondone{
+    width: 100%;
+  }
+  .secondone img {
+    margin-top: 1rem;
+    height: 20rem;
+    width: 28rem;
+    margin-left: 1rem;
+
+}
+
+/* third section started */
+
+.third-section{
+    display: flex;
+    flex-direction: column;
+}
+.thirdone {
+    padding-left: 2rem;
+    padding: 1rem;
+    width: 100%;
+    margin-top: -8rem;
+}
+.thirdone h1{
+    font-size: 2rem;
+}
+.thirdone p{
+    font-size: 1.1rem;
+}
+.thirdtwo {
+    margin-left: -13rem;
+    padding: 8rem;
+    width: 124%;
+    padding-left: 3rem;
+  }
+
+  .thirdtwo img {
+    margin-top: -4rem;
+    height: 23rem;
+    width: 30rem;
+    margin-left: 6rem;
+    padding-right: 2rem;
+  }
+
+  .third-section video {
+    position: absolute;
+    margin-top: -2rem;
+    height: 11rem;
+    width: 16rem
+  }
+
+}
+/* 
+media query for mobile to tab */
+
+@media (min-width:481px) and (max-width:768px){
+    nav{
+        width: 104vw;
+        padding: 1.3rem 2rem;
+    }
+    .first{
+        padding: 1rem;
+        margin-top: 8rem;
+    }
+    .first h1{
+        font-size: 2.5rem;
+    }
+
+    form{
+        flex-direction: column;
+    }
+     form button{
+            margin-left: 5rem;
+            padding: 1rem 1rem;
+            width: 10rem;
+            margin-top: 2rem;
+    
+}
+/* first section willl be started hair */
+.section-first{
+    flex-direction: column;
+}
+.one{
+    margin-top: -5rem;
+}
+.one h1{
+    font-size: 2rem;
+}
+.two img{
+    height: 26rem;
+  width: 34rem;
+  margin-top: 1rem;
+}
+.two video{
+    margin-top: 4rem;
+}
+
+/* second section will be starr */
+
+.second-section{
+    flex-direction: column-reverse;
+  }
+  .secondtwo{
+    width: 100%;
+    padding: 2rem;
+    margin-top: 4rem;
+    height: 14%;
+  }
+  .secondtwo h1{
+    font-size: 1.9rem;
+  }
+  .secondtwo p{
+    font-size: 1.1rem;
+  }
+  .secondone{
+    width: 100%;
+  }
+  .secondone img {
+    margin-top: 1rem;
+    height: 24rem;
+    width: 39rem;
+    margin-left: 1rem;
+
+}
+
+/* third section started */
+
+
+.third-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.thirdone {
+    padding-left: 2rem;
+    padding: 1rem;
+    width: 100%;
+    margin-top: -8rem;
+}
+.thirdone h1{
+    font-size: 2rem;
+}
+.thirdone p{
+    font-size: 1.1rem;
+}
+.thirdtwo {
+    margin-left: -13rem;
+    padding: 8rem;
+    width: 124%;
+    padding-left: 3rem;
+  }
+
+  .thirdtwo img {
+    margin-top: -4rem;
+    height: 23rem;
+    width: 30rem;
+    margin-left: 6rem;
+    padding-right: 2rem;
+  }
+
+  .third-section video {
+    position: absolute;
+    margin-top: -2rem;
+    height: 11rem;
+    width: 16rem
+  }
+ 
+}
+
+
+/* media query for tab to laptop */
+
+@media (min-width:769px) and (max-width:1024px) {
+
+    .section-first{
+        flex-direction: column;
+    }
+    .one{
+        margin-top: -10rem;
+    }
+    .two img{
+        margin-top: -2rem;
+    }
+
+
+/* secon\d section will be started from here */
+
+.second-section{
+    flex-direction: column-reverse;
+  }
+  .secondtwo{
+    width: 100%;
+    padding: 2rem;
+    margin-top: 4rem;
+    height: 14%;
+  }
+  .secondtwo h1{
+    font-size: 2.1rem;
+  }
+  .secondtwo p{
+    font-size: 1.3rem;
+  }
+  .secondone{
+    width: 100%;
+  }
+  .secondone img {
+    margin-top: 1rem;
+    height: 24rem;
+    width: 39rem;
+    margin-left: 1rem;
+
+}
+
+}
